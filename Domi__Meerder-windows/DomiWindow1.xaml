@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Domi__Meerder_windows"
         mc:Ignorable="d"
+        Activated="Window_Activated"
         Title="DomiWindow1" Height="450" Width="800">
     <Window.Resources>
         <Style TargetType="Button">
@@ -55,6 +56,7 @@
                 <RowDefinition Height="*" />
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
 
 
@@ -67,12 +69,16 @@
 
 
             <StackPanel VerticalAlignment="Center" Grid.Row="1">
-                <Label Foreground="Black" HorizontalAlignment="Center">Text doorgeven aan andere window</Label>
+                <Label Foreground="Black" HorizontalAlignment="Center">Text Doorgeven via constructor</Label>
                 <TextBox x:Name="txtHoofdKleineLetters" />
                 <Button x:Name="btnHoofdKleineLetters" Content="Hoofd- of kleine-letters ? " Click="btnHoofdKleineLetters_Click"/>
             </StackPanel>
 
-
+            <StackPanel VerticalAlignment="Center" Grid.Row="2">
+                <Label Foreground="Black" HorizontalAlignment="Center">Text Opslaan als static variabele in static class en daarna terug uitlezen</Label>
+                <TextBox x:Name="txtViaStaticClass" />
+                <Button x:Name="btnViaStaticClass" Content="Hoofd- of kleine-letters ? " Click="btnViaStaticClass_Click"/>
+            </StackPanel>
 
         </Grid>
         

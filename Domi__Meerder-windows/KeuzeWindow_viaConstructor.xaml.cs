@@ -15,20 +15,19 @@ using System.Windows.Shapes;
 namespace Domi__Meerder_windows
 {
     /// <summary>
-    /// Interaction logic for DomiKeuzeWindow.xaml
+    /// Interaction logic for KeuzeWindow_viaConstructor.xaml
     /// </summary>
-    public partial class DomiKeuzeWindow : Window
+    public partial class KeuzeWindow_viaConstructor : Window
     {
-        //** 
-        private TextBox tb;
-
-        public DomiKeuzeWindow(TextBox text)
+        public KeuzeWindow_viaConstructor(TextBox text)//<-- neemt textbox aan
         {
             InitializeComponent();
-
             tb = text; // De 2 objecten worden aan elkaar gekoppeld.
-
         }
+       
+        private TextBox tb;   // declareer je object
+
+      
 
         private void btnOk_Click(object sender, RoutedEventArgs e)
         {
@@ -39,7 +38,6 @@ namespace Domi__Meerder_windows
 
             DialogResult = true; // Doorgeven op OK geklikt.
         }
-
         private void btnCancel_Click(object sender, RoutedEventArgs e)
         {
 

@@ -16,5 +16,7 @@ C:\Users\elkes\OneDrive\Documents\GitHub\DOMI\Domi___Meerdere-Vensters\Domi__Mee
 C:\Users\elkes\OneDrive\Documents\GitHub\DOMI\Domi___Meerdere-Vensters\Domi__Meerder-windows\obj\Debug\Domi__Meerder-windows.csproj.CoreCompileInputs.cache
 C:\Users\elkes\OneDrive\Documents\GitHub\DOMI\Domi___Meerdere-Vensters\Domi__Meerder-windows\obj\Debug\Domi__Meerder-windows.exe
 C:\Users\elkes\OneDrive\Documents\GitHub\DOMI\Domi___Meerdere-Vensters\Domi__Meerder-windows\obj\Debug\Domi__Meerder-windows.pdb
-C:\Users\elkes\OneDrive\Documents\GitHub\DOMI\Domi___Meerdere-Vensters\Domi__Meerder-windows\obj\Debug\DomiKeuzeWindow.g.cs
-C:\Users\elkes\OneDrive\Documents\GitHub\DOMI\Domi___Meerdere-Vensters\Domi__Meerder-windows\obj\Debug\DomiKeuzeWindow.baml
+C:\Users\elkes\OneDrive\Documents\GitHub\DOMI\Domi___Meerdere-Vensters\Domi__Meerder-windows\obj\Debug\KeuzeWindow_staticVariabele.g.cs
+C:\Users\elkes\OneDrive\Documents\GitHub\DOMI\Domi___Meerdere-Vensters\Domi__Meerder-windows\obj\Debug\KeuzeWindow_viaConstructor.g.cs
+C:\Users\elkes\OneDrive\Documents\GitHub\DOMI\Domi___Meerdere-Vensters\Domi__Meerder-windows\obj\Debug\KeuzeWindow_staticVariabele.baml
+C:\Users\elkes\OneDrive\Documents\GitHub\DOMI\Domi___Meerdere-Vensters\Domi__Meerder-windows\obj\Debug\KeuzeWindow_viaConstructor.baml

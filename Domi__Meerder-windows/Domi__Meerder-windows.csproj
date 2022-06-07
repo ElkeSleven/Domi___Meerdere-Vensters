@@ -61,14 +61,18 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DomiKeuzeWindow.xaml.cs">
-      <DependentUpon>DomiKeuzeWindow.xaml</DependentUpon>
-    </Compile>
+    <Compile Include="Data.cs" />
     <Compile Include="DomiWindow1.xaml.cs">
       <DependentUpon>DomiWindow1.xaml</DependentUpon>
     </Compile>
     <Compile Include="DomiWindow2.xaml.cs">
       <DependentUpon>DomiWindow2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="KeuzeWindow_staticVariabele.xaml.cs">
+      <DependentUpon>KeuzeWindow_staticVariabele.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="KeuzeWindow_viaConstructor.xaml.cs">
+      <DependentUpon>KeuzeWindow_viaConstructor.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
@@ -96,15 +100,19 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Page Include="DomiKeuzeWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="DomiWindow1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="DomiWindow2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="KeuzeWindow_staticVariabele.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="KeuzeWindow_viaConstructor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

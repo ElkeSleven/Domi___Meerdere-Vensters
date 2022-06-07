@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\elkes\OneDrive\Documents\GitHub\DOMI\Domi___Meerdere-Vensters\Domi__Meerder-windows\App.xaml
-3-624339484
+4243123298
 
-82074794448
+10-897481112
 13-1310406943
-DomiKeuzeWindow.xaml;DomiWindow1.xaml;DomiWindow2.xaml;
+DomiWindow1.xaml;DomiWindow2.xaml;KeuzeWindow_staticVariabele.xaml;KeuzeWindow_viaConstructor.xaml;
 
-True
+False
 
