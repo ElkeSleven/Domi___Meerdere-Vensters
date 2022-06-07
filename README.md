@@ -1,7 +1,7 @@
 # Domi___Meerdere-Vensters
 
-* verschil tussen .Show en .ShowDialog
-* Data uitwisselen tussen verschillende Windows
-      - Doorgeven via constructor
-      - Opslaan als static variabele in static class en daarna terug uitlezen
+* verschil tussen .Show en .ShowDialog 
+<br>* Data uitwisselen tussen verschillende Windows
+<br>      - Doorgeven via constructor
+<br>      - Opslaan als static variabele in static class en daarna terug uitlezen
 
