@@ -1,0 +1,89 @@
+﻿<Window x:Class="Domi__Meerder_windows.DomiWindow1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Domi__Meerder_windows"
+        mc:Ignorable="d"
+        Title="DomiWindow1" Height="450" Width="800">
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="MaxWidth" Value="150"/>
+            <Setter Property="Margin" Value="0 5"/>
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="MaxWidth" Value="150"/>
+            <Setter Property="Margin" Value="0 5"/>
+        </Style>
+        <Style TargetType="Label">
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Padding" Value="0 2"/>
+            <Setter Property="Foreground" Value="White"/>
+
+        </Style>
+    </Window.Resources>
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="Hoofdmenu">
+                <MenuItem Header="Item1"></MenuItem>
+                <MenuItem Header="Item2">
+                    <MenuItem Header="Supmenu1"></MenuItem>
+                    <MenuItem Header="Supmenu2"></MenuItem>
+                    <MenuItem Header="Supmenu3"></MenuItem>
+                    <MenuItem Header="Supmenu4"></MenuItem>
+                    <MenuItem Header="Supmenu5">
+                        <MenuItem Header="supItem1"></MenuItem>
+                        <MenuItem Header="supItem2"></MenuItem>
+                        <MenuItem Header="supItem3"></MenuItem>
+                        <MenuItem Header="supItem4"></MenuItem>
+                    </MenuItem>
+                </MenuItem>
+            </MenuItem>
+            <MenuItem Header="Afsuiten"></MenuItem>
+        </Menu>
+
+
+        <DockPanel DockPanel.Dock="Bottom" Background="#696969"  >
+            <Label Name="lbldayTime"  Margin="20 0 0 0"  />
+            <Label Content="DOMI - by Elke" DockPanel.Dock="Right"  FontWeight="DemiBold" FontSize="13" Margin="0 0 20 0" />
+            <Label Content="Meerdere windows" FontWeight="DemiBold" FontSize="15" HorizontalAlignment="Center" />
+        </DockPanel>
+
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+
+            <StackPanel VerticalAlignment="Center" Grid.Row="0">
+                <Label Foreground="Black" HorizontalAlignment="Center">verschil tussen .Show en .SowDialog</Label>
+                <Button x:Name="BtnShow" Content="Show" Click="BtnShow_Click"/>
+                <Button x:Name="BtnShowDialog" Content="ShowDialog" Click="BtnShowDialog_Click"/>
+            </StackPanel>
+
+
+
+            <StackPanel VerticalAlignment="Center" Grid.Row="1">
+                <Label Foreground="Black" HorizontalAlignment="Center">Text doorgeven aan andere window</Label>
+                <TextBox x:Name="txtHoofdKleineLetters" />
+                <Button x:Name="btnHoofdKleineLetters" Content="Hoofd- of kleine-letters ? " Click="btnHoofdKleineLetters_Click"/>
+            </StackPanel>
+
+
+
+        </Grid>
+        
+        
+
+
+
+
+
+
+
+
+    </DockPanel>
+</Window>
