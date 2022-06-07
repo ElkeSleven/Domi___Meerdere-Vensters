@@ -24,10 +24,15 @@ namespace Domi__Meerder_windows
             InitializeComponent();
            
         }
-
+        /* Domi_Merdere-Windows
+         * verschil tussen .Show en .ShowDialog
+         * Data uitwisselen tussen verschillende Windows
+         *  - Doorgeven via constructor
+         *  - Opslaan als static variabele in static class en daarna terug uitlezen
+         */
 
         #region verschil tussen .Show en .ShowDialog
-      
+
         //**opent ander window *_Gebruiker kan wisselen tussen bijde windows 
         private void BtnShow_Click(object sender, RoutedEventArgs e)
         {
